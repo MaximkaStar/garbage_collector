@@ -1,0 +1,7 @@
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\bin\Debug\garbage_collector.exe.config
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\bin\Debug\garbage_collector.exe
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\bin\Debug\garbage_collector.pdb
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\obj\Debug\garbage_collector.csprojResolveAssemblyReference.cache
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\obj\Debug\garbage_collector.csproj.CoreCompileInputs.cache
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\obj\Debug\garbage_collector.exe
+C:\Users\Максим\source\repos\garbage_collector\garbage_collector\obj\Debug\garbage_collector.pdb
