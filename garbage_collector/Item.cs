@@ -8,7 +8,13 @@ namespace garbage_collector
 {
     public class Item
     {
-        public int Age = 10;
-        public int Date = 20022002;
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime DeliveryDate { get; set; }
+        private Guid ID { get; set; }
+        public Item()
+        {
+            ID = Guid.NewGuid();
+        }
     }
 }

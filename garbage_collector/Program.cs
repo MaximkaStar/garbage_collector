@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.GC;
+using static System.Console;
 
 namespace garbage_collector
 {
@@ -11,8 +12,20 @@ namespace garbage_collector
     {
         static void Main(string[] args)
         {
-            Item peace = new Item();
-            GC.Collect(0, GCCollectionMode.Forced);
+            Item peace = new Item()
+            {
+                Name = "iPhone",
+                Description = "White, 16GB",
+            };
+            
+            WriteLine("Generation of peace: {0}", GC.GetGeneration(peace));
+            ReadLine();
+            GC.Collect();
+            WriteLine("Generation of peace : {0}", GC.GetGeneration(peace));
+
+
+            ReadLine();
+            Clear();
         }
     }
 }
